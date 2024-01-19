@@ -1,95 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&amp;display=swap"
-      rel="stylesheet"
-      data-optimized-fonts="true"
-    />
-    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Резюме Максим Цацура</title>
   </head>
   <body>
-    <main>
-      <div class="main-wrapper">
-        <aside class="sidebar">
-          <section class="common">
-            <img
-              class="common__avatar"
-              src="./assets/pictures/avatar.jpg"
-              alt="avatar"
-            />
-            <div class="common__info-personal">
-              <div class="common__name">Maksim Tsatsura</div>
-              <div class="common__post">Junior Front-End Developer</div>
-            </div>
-          </section>
-
-          <section class="personal">
-            <div class="personal__title">personal</div>
-
-            <div class="personal__heading">ENGLISH</div>
-            <div class="personal__answer">A2</div>
-
-            <div class="personal__heading">SELF INTRODUCTION</div>
-            <a
-              class="personal__answer-link"
-              href="https://youtu.be/v-BYpdunYYo"
-            >
-              https://youtu.be/v-BYpdunYYo
-            </a>
-
-            <div class="personal__heading">READY TO WORK FULL TIME</div>
-            <div class="personal__answer">Yes</div>
-
-            <div class="personal__heading">MILITARY SERVICE STATUS</div>
-            <div class="personal__answer">Not liable</div>
-          </section>
-
-          <section class="contacts">
-            <div class="contact__title">contacts</div>
-
-            <div class="contacts__contact">
-              <div class="contacts__icon icon-location"></div>
-              <div class="contacts__answer">Mogilev</div>
-            </div>
-            <div class="contacts__contact">
-              <div class="contacts__icon icon-email"></div>
-              <a
-                class="contacts__answer-link"
-                href="mailto:maxim.tsatsura@gmail.com"
-                target="_blank"
+    <div class="container">
+      <main>
+        <div class="main">
+          <img src="./assets/img/logo.jpg" alt="" class="main__picture" />
+          <div class="main__info">
+            <h1 class="main__info_name">Максим Цацура</h1>
+            <h1 class="main__info_post">
+              Juniour Frontend / Backend Developer
+            </h1>
+          </div>
+        </div>
+        <div class="content">
+          <section class="section">
+            <h2 class="section__title">Контакты</h2>
+            <div class="section__content">
+              <p class="contact">г. Могилев, Беларусь</p>
+              <a class="contact" href="mailto:maxim.tsatsura@gmail.com"
                 >maxim.tsatsura@gmail.com</a
               >
+              <a class="contact" href="tel:+3752974343147">+375-29-743-4317</a>
             </div>
-            <div class="contacts__contact">
-              <div class="contacts__icon icon-github"></div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Ссылки</h2>
+            <div class="section__content">
               <a
-                class="contacts__answer-link"
+                class="contact"
+                href="https://www.linkedin.com/in/maksim-tsatsura-17676a238/"
+                target="_blank"
+                >https://www.linkedin.com/in/maksim-tsatsura-17676a238/</a
+              >
+              <a
+                class="contact"
                 href="https://github.com/Maks-T"
                 target="_blank"
-                >https://github.com/Maks-T
-              </a>
-            </div>
-            <div class="contacts__contact">
-              <div class="contacts__icon icon-phone"></div>
-              <a class="contacts__answer-link" href="tel:+375297434317"
-                >+375297434317
-              </a>
-            </div>
-            <div class="contacts__contact">
-              <div class="contacts__icon icon-telegram"></div>
-              <a
-                class="contacts__answer-link"
-                href="https://t.me/maxim_tsatsura"
-                target="_blank"
-                >@maxim_tsatsura</a
+                >https://github.com/Maks-T</a
               >
             </div>
           </section>
-        </aside>
-      </div>
-    </main>
+
+          <section class="section">
+            <h2 class="section__title">Обо мне</h2>
+            <div class="section__content">
+              <p>
+                В последнее время я работал в строительной отрасли на инженерных
+                и руководящих должностях. Но с давних пор у меня была страсть к
+                программированию, и вот решил сменить направление. Я прошел
+                курсы по JavaScript, Angular, Node.js, Magento 2 и 1C Bitrix, а
+                также самостоятельно освоил React.
+              </p>
+              <p>
+                В настоящее время я занимаюсь созданием и поддержкой веб-сайтов
+                на платформе 1C Bitrix, а также разработкой различных расчетных
+                систем и калькуляторов на React, индивидуально настраиваемых под
+                потребности клиентов. Кроме того, я провожу интеграцию как
+                собственных компонентов на React, так и сторонних сервисов в
+                систему 1C Bitrix.
+              </p>
+              <p>
+                Я ответственный и целеустремленный человек, который быстро
+                учится и адаптируется к новым знаниям и информации. Моя сильная
+                сторона - нахождение нестандартных решений для сложных задач.
+              </p>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Образование</h2>
+            <div class="section__content">
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Сентябрь 2006</span>
+                  <span>Июнь 2011</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">
+                    Белорусско-российский университет
+                  </div>
+                  <div class="timeline__description">Инженер-строитель</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Курсы</h2>
+            <div class="section__content">
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Февраль 2021</span>
+                  <span>Июль 2021</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">
+                    JavaScript/Front-end 2021Q1, Javascript
+                  </div>
+                  <div class="timeline__description">
+                    THE ROLLING SCOPES SCHOOL
+                  </div>
+                </div>
+                <a
+                  class="icon link"
+                  href="./certificates/RS-SCHOOL-JAVASCRIPT-FRONT-END-2021Q1.pdf"
+                  target="_blank"
+                ></a>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Сентябрь 2021</span>
+                  <span>Октябрь 2021</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">Angular 2021Q3, Angular</div>
+                  <div class="timeline__description">
+                    THE ROLLING SCOPES SCHOOL
+                  </div>
+                </div>
+                <a
+                  class="icon link"
+                  href="./certificates/RS_SCHOOL-ANGULAR-2021Q3.pdf"
+                  target="_blank"
+                ></a>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Ноябрь 2021</span>
+                  <span>Февраль 2022</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">NodeJS 2021Q4, NodeJS</div>
+                  <div class="timeline__description">
+                    THE ROLLING SCOPES SCHOOL
+                  </div>
+                </div>
+                <a
+                  class="icon link"
+                  href="./certificates/RS_SCHOOL-NODEJS-2021-Q4.pdf"
+                  target="_blank"
+                ></a>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Стажировки</h2>
+            <div class="section__content">
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Август 2022</span>
+                  <span>Сентябрь 2022</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">PHP, Magento 2</div>
+                  <div class="timeline__description">Amasty</div>
+                </div>
+                <a
+                  class="icon link"
+                  href="./certificates/AMASTY-Certificate.pdf"
+                  target="_blank"
+                ></a>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Сентябрь 2021</span>
+                  <span>Октябрь 2021</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">PHP, 1C Bitrix</div>
+                  <div class="timeline__description">Manao</div>
+                </div>
+                <a
+                  class="icon link"
+                  href="./certificates/Developer-Bitrix-Framework.pdf"
+                  target="_blank"
+                ></a>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Опыт работы</h2>
+            <div class="section__content">
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Май 2023</span>
+                  <span>Сегодня 2023</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">Fullstack developer</div>
+                  <div class="timeline__title">ООО "Вистегра"</div>
+                  <div class="timeline__description">
+                    Разработка сайтов на 1С Bitrix, создание компонентов для
+                    вычислений на React.Интеграции с различными сервисами.
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline__date">
+                  <span>Август 2011</span>
+                  <span>Май 2023</span>
+                </div>
+                <div class="timeline__info">
+                  <div class="timeline__heading">
+                    Работа на инженерных и руководящих должностях
+                  </div>
+                  <div class="timeline__description">
+                    Различные строительные компании в Могилеве и Москве
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Ключевые навыки</h2>
+            <div class="section__content">
+              <div class="skills">
+                <span class="skill">JavaScript</span>
+                <span class="skill">PHP</span
+                ><span class="skill">1С-Битрикс</span>
+                <span class="skill">React</span>
+                <span class="skill">CSS</span>
+                <span class="skill">HTML</span>
+                <span class="skill">Node.js</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2 class="section__title">Навыки</h2>
+            <div class="section__content">
+              <div class="skills">
+                <span class="skill">SQL</span>
+                <span class="skill">Docker</span
+                ><span class="skill">Angular</span>
+                <span class="skill">NestJS</span>
+                <span class="skill">Webpack </span>
+                <span class="skill">HTML</span>
+                <span class="skill">Typescript</span>
+                <span class="skill">Magento 2</span>
+                <span class="skill">GraphQL</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src=""></script>
   </body>
 </html>
